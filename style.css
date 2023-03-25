@@ -28,6 +28,8 @@
 .logo{
 	width: 120px;
 	cursor: pointer;
+	border-radius: 50%;
+
 }
 
 .navbar ul li{
@@ -142,8 +144,61 @@ button{
 }
 
 
+/*CONTATTIDIV*/
+
+.contattidiv {
+  border: 3px solid green;
+  margin-top: 10vh;
+  margin-right: 25%;
+  margin-left: 25%;
+	height: 20vh;
+	background-color: #990000;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+  
+}
+
+/* Style the list inside the menu */
+.contattidiv ul {
+  list-style: none;
+	text-align: right;
+	font-size: 3vh;
+	
+}
+
+.contattidiv ul li a{
+	color: #fff;
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+.contattidiv ul li{
+	display: block ;
+	vertical-align: text-top;
+	margin-top: 1vh;
+}
+
+.contattidiv ul li a:hover{
+	opacity: 1;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*LEFTDIV*/
 
 .leftdiv {
   width: 65%;
