@@ -147,14 +147,14 @@ button{
 /*CONTATTIDIV*/
 
 .contattidiv {
-  border: 3px solid green;
+  
   margin-top: 10vh;
-  margin-right: 25%;
-  margin-left: 25%;
-	height: 20vh;
+  margin-right: 20%;
+  margin-left: 20%;
+  height: 20vh;
 	background-color: #990000;
 	display: flex;
-	justify-content: start;
+	justify-content: center;
 	align-items: center;
   
 }
@@ -162,8 +162,8 @@ button{
 /* Style the list inside the menu */
 .contattidiv ul {
   list-style: none;
-	text-align: right;
-	font-size: 3vh;
+	text-align: left;
+	font-size: 2.5vh;
 	
 }
 
@@ -364,9 +364,10 @@ button{
 	opacity: 1;
 }
 
-.footer .copyright{
+.footer .copyright a{
 	text-align: center;
 	color: white;
+	text-decoration: none;
 	margin-top: 15px;
 	font-size: 13px;
 	opacity: 0.85;
@@ -394,6 +395,10 @@ button{
 .dovesiamo p iframe{
 	border: solid 2.5px #e60000;
 	border-radius: 10%;
+}
+
+.dovesiamo .img{
+	overflow: scroll;
 }
 
 .dovesiamo p1{
