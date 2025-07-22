@@ -107,7 +107,8 @@
 .buttondiv{
 	/*border: solid 2px white;*/
 	text-align: center;
-
+	display:flex;
+	gap: 10px;;
 }
 
 
@@ -500,7 +501,7 @@ button{
 
 @media screen and (max-width: 900px) {
 	.navbar{   
-  	flex-direction: ;
+	/* flex-direction: ; */
 }
 	.navbar ul li{
 	
@@ -543,4 +544,5 @@ button{
 	font-size: 75%;
 	
 	padding: 0 0;
+}
 }
