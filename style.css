@@ -551,8 +551,13 @@ button{
 	font-size: 220%;
 	margin-top: 20px;
 	}
+.buttondiv{
+		flex-direction: column;
+		align-items: center;
+	}
+
 	button{
-		margin: 5px 10px;
+		margin: 10px 0px;
 	}
 
 	.leftdiv ul li{
