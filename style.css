@@ -160,7 +160,7 @@ button{
     align-items: center;
     padding: 20px;
     border-radius: 30px;
-    border: 3px solid whitesmoke;
+    box-shadow: 0 0 10px 3px rgba(255,255,255,1);
 
 }
 
@@ -389,7 +389,7 @@ button{
 	margin-bottom: 20%;
 	padding: 20px;
     border-radius: 30px;
-    border: 3px solid whitesmoke;
+    box-shadow: 0 0 10px 3px rgba(255,255,255,1);
 }
 .servizi a{
 
