@@ -375,6 +375,28 @@ button{
 	opacity: 0.85;
 }
 
+.servizi{
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	background-color: #990000;
+	padding-bottom: auto;
+	margin-top: 5%;
+	margin-right: 20%;
+  	margin-left: 20%;
+	padding: 10px 10px;
+}
+.servizi a{
+
+	color: #fff;
+	font-size: 20px;
+}
+.servizitytle{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 8%;
+	color: #fff;
+}
 
 .dovesiamo{
 	text-align: center;
